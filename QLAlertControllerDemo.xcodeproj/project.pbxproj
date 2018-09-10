@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41101272213FB0AA002398FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41101271213FB0AA002398FC /* AppDelegate.m */; };
+		41101275213FB0AA002398FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41101274213FB0AA002398FC /* ViewController.m */; };
+		41101278213FB0AA002398FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41101276213FB0AA002398FC /* Main.storyboard */; };
+		4110127A213FB0AB002398FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41101279213FB0AB002398FC /* Assets.xcassets */; };
+		4110127D213FB0AC002398FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4110127B213FB0AB002398FC /* LaunchScreen.storyboard */; };
+		41101280213FB0AC002398FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110127F213FB0AC002398FC /* main.m */; };
+		41101289213FB0D7002398FC /* QLAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41101288213FB0D7002398FC /* QLAlertController.m */; };
+		4110128C213FB468002398FC /* QLAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110128B213FB468002398FC /* QLAlertAction.m */; };
+		4110128F213FC97C002398FC /* QLActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110128E213FC97C002398FC /* QLActionSheetView.m */; };
+		41101292213FC988002398FC /* QLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41101291213FC988002398FC /* QLAlertView.m */; };
+		41ED3FBB2140BAA400DEDC51 /* QLAlertTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ED3FBA2140BAA400DEDC51 /* QLAlertTableViewCell.m */; };
+		41ED3FBF21410F6500DEDC51 /* QLAlertPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ED3FBE21410F6500DEDC51 /* QLAlertPresentationController.m */; };
+		41ED3FC2214112A600DEDC51 /* QLAlertAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ED3FC1214112A600DEDC51 /* QLAlertAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4110126D213FB0AA002398FC /* QLAlertControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLAlertControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41101270213FB0AA002398FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41101271213FB0AA002398FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41101273213FB0AA002398FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41101274213FB0AA002398FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41101277213FB0AA002398FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41101279213FB0AB002398FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4110127C213FB0AB002398FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4110127E213FB0AC002398FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4110127F213FB0AC002398FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41101287213FB0D7002398FC /* QLAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLAlertController.h; sourceTree = "<group>"; };
+		41101288213FB0D7002398FC /* QLAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLAlertController.m; sourceTree = "<group>"; };
+		4110128A213FB468002398FC /* QLAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLAlertAction.h; sourceTree = "<group>"; };
+		4110128B213FB468002398FC /* QLAlertAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLAlertAction.m; sourceTree = "<group>"; };
+		4110128D213FC97C002398FC /* QLActionSheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLActionSheetView.h; sourceTree = "<group>"; };
+		4110128E213FC97C002398FC /* QLActionSheetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLActionSheetView.m; sourceTree = "<group>"; };
+		41101290213FC988002398FC /* QLAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLAlertView.h; sourceTree = "<group>"; };
+		41101291213FC988002398FC /* QLAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLAlertView.m; sourceTree = "<group>"; };
+		41ED3FB92140BAA400DEDC51 /* QLAlertTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLAlertTableViewCell.h; sourceTree = "<group>"; };
+		41ED3FBA2140BAA400DEDC51 /* QLAlertTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLAlertTableViewCell.m; sourceTree = "<group>"; };
+		41ED3FBC2140D13B00DEDC51 /* QLAlertConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLAlertConfig.h; sourceTree = "<group>"; };
+		41ED3FBD21410F6500DEDC51 /* QLAlertPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLAlertPresentationController.h; sourceTree = "<group>"; };
+		41ED3FBE21410F6500DEDC51 /* QLAlertPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLAlertPresentationController.m; sourceTree = "<group>"; };
+		41ED3FC0214112A600DEDC51 /* QLAlertAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLAlertAnimation.h; sourceTree = "<group>"; };
+		41ED3FC1214112A600DEDC51 /* QLAlertAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLAlertAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4110126A213FB0AA002398FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41101264213FB0A9002398FC = {
+			isa = PBXGroup;
+			children = (
+				4110126F213FB0AA002398FC /* QLAlertControllerDemo */,
+				4110126E213FB0AA002398FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4110126E213FB0AA002398FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4110126D213FB0AA002398FC /* QLAlertControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4110126F213FB0AA002398FC /* QLAlertControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				41101286213FB0B9002398FC /* QLAlertController */,
+				41101270213FB0AA002398FC /* AppDelegate.h */,
+				41101271213FB0AA002398FC /* AppDelegate.m */,
+				41101273213FB0AA002398FC /* ViewController.h */,
+				41101274213FB0AA002398FC /* ViewController.m */,
+				41101276213FB0AA002398FC /* Main.storyboard */,
+				41101279213FB0AB002398FC /* Assets.xcassets */,
+				4110127B213FB0AB002398FC /* LaunchScreen.storyboard */,
+				4110127E213FB0AC002398FC /* Info.plist */,
+				4110127F213FB0AC002398FC /* main.m */,
+			);
+			path = QLAlertControllerDemo;
+			sourceTree = "<group>";
+		};
+		41101286213FB0B9002398FC /* QLAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				41101287213FB0D7002398FC /* QLAlertController.h */,
+				41101288213FB0D7002398FC /* QLAlertController.m */,
+				4110128A213FB468002398FC /* QLAlertAction.h */,
+				4110128B213FB468002398FC /* QLAlertAction.m */,
+				41101290213FC988002398FC /* QLAlertView.h */,
+				41101291213FC988002398FC /* QLAlertView.m */,
+				4110128D213FC97C002398FC /* QLActionSheetView.h */,
+				4110128E213FC97C002398FC /* QLActionSheetView.m */,
+				41ED3FBC2140D13B00DEDC51 /* QLAlertConfig.h */,
+				41ED3FB92140BAA400DEDC51 /* QLAlertTableViewCell.h */,
+				41ED3FBA2140BAA400DEDC51 /* QLAlertTableViewCell.m */,
+				41ED3FB82140BA7500DEDC51 /* Animation */,
+			);
+			path = QLAlertController;
+			sourceTree = "<group>";
+		};
+		41ED3FB82140BA7500DEDC51 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				41ED3FBD21410F6500DEDC51 /* QLAlertPresentationController.h */,
+				41ED3FBE21410F6500DEDC51 /* QLAlertPresentationController.m */,
+				41ED3FC0214112A600DEDC51 /* QLAlertAnimation.h */,
+				41ED3FC1214112A600DEDC51 /* QLAlertAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4110126C213FB0AA002398FC /* QLAlertControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41101283213FB0AC002398FC /* Build configuration list for PBXNativeTarget "QLAlertControllerDemo" */;
+			buildPhases = (
+				41101269213FB0AA002398FC /* Sources */,
+				4110126A213FB0AA002398FC /* Frameworks */,
+				4110126B213FB0AA002398FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLAlertControllerDemo;
+			productName = QLAlertControllerDemo;
+			productReference = 4110126D213FB0AA002398FC /* QLAlertControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41101265213FB0AA002398FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = QiuFairy;
+				TargetAttributes = {
+					4110126C213FB0AA002398FC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 41101268213FB0AA002398FC /* Build configuration list for PBXProject "QLAlertControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41101264213FB0A9002398FC;
+			productRefGroup = 4110126E213FB0AA002398FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4110126C213FB0AA002398FC /* QLAlertControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4110126B213FB0AA002398FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110127D213FB0AC002398FC /* LaunchScreen.storyboard in Resources */,
+				4110127A213FB0AB002398FC /* Assets.xcassets in Resources */,
+				41101278213FB0AA002398FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41101269213FB0AA002398FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41101292213FC988002398FC /* QLAlertView.m in Sources */,
+				41ED3FBB2140BAA400DEDC51 /* QLAlertTableViewCell.m in Sources */,
+				41101275213FB0AA002398FC /* ViewController.m in Sources */,
+				41101280213FB0AC002398FC /* main.m in Sources */,
+				4110128C213FB468002398FC /* QLAlertAction.m in Sources */,
+				4110128F213FC97C002398FC /* QLActionSheetView.m in Sources */,
+				41ED3FC2214112A600DEDC51 /* QLAlertAnimation.m in Sources */,
+				41ED3FBF21410F6500DEDC51 /* QLAlertPresentationController.m in Sources */,
+				41101272213FB0AA002398FC /* AppDelegate.m in Sources */,
+				41101289213FB0D7002398FC /* QLAlertController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41101276213FB0AA002398FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41101277213FB0AA002398FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4110127B213FB0AB002398FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4110127C213FB0AB002398FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41101281213FB0AC002398FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41101282213FB0AC002398FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41101284213FB0AC002398FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.QLAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41101285213FB0AC002398FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.QLAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41101268213FB0AA002398FC /* Build configuration list for PBXProject "QLAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41101281213FB0AC002398FC /* Debug */,
+				41101282213FB0AC002398FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41101283213FB0AC002398FC /* Build configuration list for PBXNativeTarget "QLAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41101284213FB0AC002398FC /* Debug */,
+				41101285213FB0AC002398FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41101265213FB0AA002398FC /* Project object */;
+}
